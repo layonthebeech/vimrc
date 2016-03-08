@@ -1,0 +1,8 @@
+[user]
+	email = beecherp@gmail.com
+	name = layonthebeech
+	username = layonthebeech
+[alias]
+	st = status
+	llg = log --graph --decorate --relative-date --pretty=format:\"%C(yellow)%h %Cblue%ad %C(green)%an%C(cyan)%d%Creset - %s\"
+  brdel = !git branch --merged | grep -v \"\\(^\\s*master\\|\\*\\)\" | xargs git branch -d 
